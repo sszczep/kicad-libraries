@@ -6,13 +6,13 @@ Set of symbols/footprints/models that I've created for my projects.
 
 ## How to use
 
-Download footprints (***.pretty** directories) and symbols (***.lib** files) that you want to use and add them as global or project specific libraries. To use 3D Models, you must create **SSZCZEP_MODELS** environment path pointing to **models** directory.
+Download footprints (***.pretty** directories) and symbols (***.lib** files) that you want to use and add them as global or project specific libraries. To use 3D Models, you must create **SSZCZEP_MODELS** environment variable pointing to **models** directory.
 
 ## Footprints
 
-### Cherry MX
+### CherryMX.pretty
 
-Over 400 different footprints generated using [this](https://github.com/sszczep/kicad-libraries/blob/master/footprints/CherryMX.pretty/generate.py) code. 
+Over 400 different footprints for Cherry MX switches generated using [this](https://github.com/sszczep/kicad-libraries/blob/master/footprints/CherryMX.pretty/generate.py) code. 
 
 It includes variants such as:
 * Plate/PCB mounted
@@ -20,3 +20,13 @@ It includes variants such as:
 * No LED/2 pin LED/LTST-A683CEGBW
 * Normal switch mount/Kailh Socket for hot-swap compatibility
 
+## 3D Models
+
+### LTST-A683CEGBW.step
+
+Reverse mounted RGB SMD LED that I use for underglowing Cherry MX switches.
+Detailed datasheet can be found [here](https://optoelectronics.liteon.com/upload/download/DS35-2019-0032/LTST-A683CEGBW.PDF).
+
+### KailhSocket.stp
+
+This model was obtained from [*QMK*](https://github.com/qmk). All credits go to them. The exact file can be found [here](https://github.com/qmk/qmk_hardware/blob/master/components/kailh_socket_mx.stp). I'm keeping it here as it is easier to link and use in all of my projects. 
