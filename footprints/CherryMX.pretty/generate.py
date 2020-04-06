@@ -1,4 +1,4 @@
-sizesToGenerate=["1.00", "1.25", "1.50", "1.75", "2.00", "2.50", "2.75", "3.00", "4.00", "4.50", "5.50", "6.00", "6.25", "6.50", "7.00", "8.00", "9.00", "9.75", "10.00"]
+sizesToGenerate=["1.00", "1.25", "1.50", "1.75", "2.00", "2.25", "2.50", "2.75", "3.00", "4.00", "4.50", "5.50", "6.00", "6.25", "6.50", "7.00", "8.00", "9.00", "9.75", "10.00"]
 
 # All of the dimensions are in mm
 unit = 19.05
@@ -6,6 +6,7 @@ unit = 19.05
 # Spacings taken from https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf and https://deskthority.net/wiki/Space_bar_dimensions
 stabSpacings = {
   "2.00": 0.94*25.4,
+  "2.25": 0.94*25.4,
   "2.50": 0.94*25.4,
   "2.75": 0.94*25.4,
   "3.00": 1.5*25.4,
