@@ -8,6 +8,16 @@ Set of symbols/footprints/models that I've created for my projects.
 
 Download footprints (***.pretty** directories) and symbols (***.lib** files) that you want to use and add them as global or project specific libraries. To use 3D Models, you must create **SSZCZEP_MODELS** environment variable pointing to **models** directory.
 
+## Symbols
+
+### CherryMX.lib
+
+Name | Description | Preview
+---- | ----------- | -------
+CherryMX | Just a regular Cherry MX switch | ![CherryMX](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/SYMBOL-CherryMX.jpg)
+CherryMX_LED | Cherry MX switch with THT LED | ![CherryMX_LED](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/SYMBOL-CherryMX_LED.jpg)
+CherryMX_LTST-A683CEGBW | Cherry MX switch with LTST-A683CEGBW for underglow | ![CherryMX_LTST-A683CEGBW](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/SYMBOL-CherryMX_LTST-A683CEGBW.jpg)
+
 ## Footprints
 
 ### CherryMX.pretty
@@ -20,13 +30,14 @@ It includes variants such as:
 * No LED/2 pin LED/LTST-A683CEGBW
 * Normal switch mount/Kailh Socket for hot-swap compatibility
 
+Example footprints:
+
+![CherryMX_1.00u_PCB](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/FOOTPRINT-CherryMX_1.00u_PCB.jpg) | ![CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/FOOTPRINT-CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW.jpg) | ![CherryMX_2.00u_PCB_Stab](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/FOOTPRINT-CherryMX_2.00u_PCB_Stab.jpg)
+---|---|---
+
 ## 3D Models
 
-### LTST-A683CEGBW.step
-
-Reverse mounted RGB SMD LED that I use for underglowing Cherry MX switches.
-Detailed datasheet can be found [here](https://optoelectronics.liteon.com/upload/download/DS35-2019-0032/LTST-A683CEGBW.PDF).
-
-### KailhSocket.stp
-
-This model was obtained from [*QMK*](https://github.com/qmk). All credits go to them. The exact file can be found [here](https://github.com/qmk/qmk_hardware/blob/master/components/kailh_socket_mx.stp). I'm keeping it here as it is easier to link and use in all of my projects. 
+Name | Description | Preview
+---- | ----------- | -------
+LTST-A683CEGBW | Reverse mounted RGB SMD LED that I use for underglowing Cherry MX switches. Detailed datasheet can be found [here](https://optoelectronics.liteon.com/upload/download/DS35-2019-0032/LTST-A683CEGBW.PDF). | ![LTST-A683CEGBW](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/MODEL-LTST-A683CEGBW.jpg)
+KailhSocket | This model was obtained from [*QMK*](https://github.com/qmk). All credits go to them. The exact file can be found [here](https://github.com/qmk/qmk_hardware/blob/master/components/kailh_socket_mx.stp). I'm keeping it here as it is easier to link and use in all of my projects. | [KailhSocket](https://raw.githubusercontent.com/sszczep/kicad-libraries/media/MODEL-KailhSocket.jpg)
