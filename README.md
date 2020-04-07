@@ -20,9 +20,9 @@ CherryMX_LTST-A683CEGBW | Cherry MX switch with LTST-A683CEGBW for underglow | !
 
 ## Footprints
 
-### CherryMX.pretty
+### CherryMX[variant].pretty
 
-Over 400 different footprints for Cherry MX switches generated using [this](https://github.com/sszczep/kicad-libraries/blob/master/footprints/CherryMX.pretty/generate.py) code. 
+Nearly 600 different footprints for Cherry MX switches generated using [this](https://github.com/sszczep/kicad-libraries/blob/master/footprints/CherryMX.pretty/generate.py) code. 
 
 It includes variants such as:
 * Plate/PCB mounted
