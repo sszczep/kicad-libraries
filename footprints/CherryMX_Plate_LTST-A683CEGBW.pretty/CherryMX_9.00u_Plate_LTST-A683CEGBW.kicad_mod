@@ -30,7 +30,7 @@
   (pad 4 smd rect (at -2.6 5.8) (size 1.8 0.9) (layers B.Cu B.Paste B.Mask))
   (pad 5 smd rect (at 2.6 4.3) (size 1.8 0.9) (layers B.Cu B.Paste B.Mask))
   (pad 6 smd rect (at 2.6 5.8) (size 1.8 0.9) (layers B.Cu B.Paste B.Mask))
-  (model "$(SSZCZEP_MODELS)/LTST-A683CEGBW.step"
+  (model "${KIPRJMOD}/models/LTST-A683CEGBW.step"
     (offset (xyz 0 -5.05 -1.87))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
