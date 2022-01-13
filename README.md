@@ -2,6 +2,8 @@
 
 Set of symbols/footprints/models that I've created for my projects.
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sszczep)
+
 ###### I'm not taking responsibility for any mistakes that I could have made. Be sure to double check all the dimensions and wiring before using in projects. 
 
 ## How to use
